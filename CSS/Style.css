@@ -1,0 +1,290 @@
+*{
+	margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+    text-decoration: none;
+   
+}
+
+@font-face{
+    font-family: "Bebas neue";
+    src: url(../fonts/fuente.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Medium.ttf.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3{
+    font-family: "Bebas neue";
+    font-size: 30px;
+}
+
+#header{
+    width:  85%;
+    height: auto;
+	background: transparent;
+	margin: 0px auto;
+}
+
+/* Menu*/
+body,html{
+height: 100%;
+margin: 0;
+padding: 0;
+background: #f1f1f1;
+font-family: "Bebas neue";
+}
+
+.chinasImg{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(../IMG/1.png) no-repeat center;
+    background-size: cover;
+}
+
+
+.Imgcontenedor{
+    position: absolute;
+    top: 35%;
+    left:75%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: right;
+    
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.Imgcontenedor h1{
+    font-size: 70px;
+    letter-spacing: 0.2em;
+    margin: 0;
+   
+}
+
+.Imgcontenedor h1 span{
+    font-family: "Bebas neue";
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.logoFooter{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.logoFooter img{
+    width: 100px;
+    height: 150px;
+}
+
+.menu{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 55px;
+    font-size: 40px;
+    font-family: "Bebas neue";
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+.contenedor{
+	display:block;
+    margin: 5px auto;
+	width: 80%;
+	background: transparent;
+	border-radius: 8px;
+    padding-bottom: 38px;
+}
+
+.clearfix{
+    overflow: auto;
+    
+    padding: 5px;
+    margin-top: 75px;
+}
+
+.img01{
+    float: right;
+    padding-left: 50px;
+   
+}
+
+#mision{
+    text-align: right;
+}
+
+.img02{
+    float: left;
+   
+}
+
+
+
+.img03{
+    float: right;
+    padding-left: 50px;
+   
+}
+
+.objetivos{
+    text-align: center;
+    margin-top: 60px;
+   
+
+}
+
+.obj-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.obj1 , .obj2, .obj3{
+    width: 25%;
+}
+
+.obj2{
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+
+.recomendation{
+    width: 70%;
+    text-align: justify;
+}
+
+.contenedor-recomendations{
+    width: 70%;
+    text-align: justify;
+}
+
+
+#projects{
+    text-align: justify;
+}
+
+#footer{
+    margin-top: 50px;
+    position: relative;
+    padding: 6;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background-color:#333;
+    color: #ccc;
+   
+}
+
+
+.menuFooter{
+    position: absolute;
+    top: 10%;
+    right: 58%;
+
+}
+
+.menuFooter li a{
+    font-weight: 550;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dir{
+    position: absolute;
+    right: 80%;
+    margin-top: 50px;
+}
+
+.copi{
+    position: absolute;
+    bottom: 0;
+   left: 40%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+/*Galeria*/
+
+.contenedor-galeria{
+    display:block;
+    margin: 5px auto;
+	width: 80%;
+	background: transparent;
+	border-radius: 8px;
+    padding-bottom: 38px;
+}
+
+.galeria {
+    height: calc( 300px + 3em);
+    width: 920px;
+    margin:1em auto;
+    border: 1px solid #555;
+    position: relative;  
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .galeria img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+    
+  }
+  
+  .galeria input[type=radio] {
+    position: relative;
+    bottom: calc(-300px - 1.5em);
+    left: .5em;
+    margin-top: 180px;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+    opacity: 1;
+  }
